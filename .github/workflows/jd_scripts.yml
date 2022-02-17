@@ -42,11 +42,6 @@ jobs:
         git clone -b main https://github.com/star261/jd.git ./star
         cp -rf ./star/scripts/*_*.js ./
         rm -rf ./star
-        echo "========= 开始下载airacg的脚本及依赖 ========="
-        git clone https://github.com/airacg/jd_task.git ./airacg
-        cp -r ./airacg/function ./
-        cp -f ./airacg/*_*.js ./
-        rm -rf ./airacg
         echo "========= 开始下载JDHelloWorld的脚本 ========="
         git clone https://github.com/JDHelloWorld/jd_scripts.git ./JDHelloWorld
         mv ./JDHelloWorld/githubAction.md ./githubAction.md
